@@ -1,0 +1,17 @@
+spring:
+  data:
+    mongodb:
+      database: contacts
+      host: localhost
+      port: 27017
+      
+      
+neostarter:
+  swagger:
+    enabled: false
+  mvc:
+    api:
+      path: /api
+      resources:
+        default-prefix: v1
+        class-name-pattern: ?API
